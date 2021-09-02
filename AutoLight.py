@@ -10,7 +10,7 @@ while 0==0:
 
   current_time = now.strftime("%H:%M:S")
 
-  hostname = "192.168.1.135"
+  hostname = "Target machine ip"
   response = os.system("ping -c 3 " + hostname)
 
   try:
